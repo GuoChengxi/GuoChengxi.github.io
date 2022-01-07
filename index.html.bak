@@ -38,9 +38,9 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#project">Project</a></li>
-								<li><a href="#music">Music</a></li>
+								<li><a href="#music work">Music Work</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+								<li><a href="#elements">Elements</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -61,7 +61,7 @@
 								at CUHKSZ.</p>
 							</article>
 
-						<!-- Work -->
+						<!-- Project -->
 							<article id="project">
 								<h2 class="major">Project</h2>
 								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
@@ -70,8 +70,8 @@
 							</article>
 
 						<!-- About -->
-							<article id="personal">
-								<h2 class="major">Personal</h2>
+							<article id="music work">
+								<h2 class="major">Music Work</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 								
 							</article>
