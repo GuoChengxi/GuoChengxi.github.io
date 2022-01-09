@@ -38,7 +38,8 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#project">Project</a></li>
-								<li><a href="#work">Music Work</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#music">Music</a></li>
 								<!--<li><a href="#contact">Contact</a></li>-->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -52,13 +53,8 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
-								<p>I am currently a senior undergraduate student at The Chinese University of Hong Kong, Shenzhen (CUHKSZ), majoring in Electronic
-								Information Engineering. I was a research assistant at The Shenzhen Institute of Artificial Intelligence and Robotics for 
-								Society (AIRS) from Aug 2021 to Dec 2021, supervised by Jingshan Zhong. My research area was Fourier ptychography in
-								computational imaging. </p>
-								<p>Personally, I am a music lover. I started to play the piano since elementary school. My favorite music styles are
-								classical, pop and folk (Especially I'm a big fan of Chopin). Now I am the keyboard player of Captain Sahara, a student band
-								at CUHKSZ.</p>
+								<p>I am currently a senior undergraduate student at The Chinese University of Hong Kong, Shenzhen (CUHKSZ), majoring in Electronic Information Engineering. I was a research assistant at The Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS) from Aug 2021 to Dec 2021, supervised by Dr. Jingshan Zhong. My research area was Fourier ptychography in computational imaging, an interdisciplinary field of optics, signal processing, and optimization.</p>
+								<p>As for my hobbies, I am a music lover. I have been playing the piano since elementary school. My favorite music styles are classical, pop, and folk (Especially I'm a big fan of Chopin). Now I am the keyboard player of Captain Sahara, a student band at CUHKSZ with three-year performance experience.</p>
 							</article>
 
 						<!-- Project -->
@@ -68,31 +64,55 @@
 									<h3 class="major">STM32-based Bouncing Ball Game</h3>
 									<span class="image main"><img src="images/microprocessor.png" alt="" /></span>
 
+									<p>This is the Microprocessor System Design Lab course project, which aims to design a two-player bouncing ball game using STM32 as the microcontroller. We utilized STM32 features such as GPIO for inputs/outputs, LCD screen for display, and timer and interrupts for process control. The functions we realized include timer, control keys to stop/continue the game, easy/hard modes based on the ball's moving speed, etc.</p>
 									<a href="https://www.bilibili.com/video/BV1uF411v7jn?from=search&seid=9534955077235889693&spm_id_from=333.337.0.0">Click here to see the demo.</a>
 									<br /><br />
 
 									<h3 class="major">License Plate Detection in Python</h3>
 									<span class="image main"><img src="images/license.png" alt="" /></span>
+
+									<p>This project’s goal is to design a system for automatic license plate recognition and extraction from vehicle datasets in a variable shooting environment. We adopted Python and OpenCV to preprocess images and implement the algorithm. We realized technologies of morphological processing, edge detection, contour extractions, etc. Eventually, the recall/accuracy rate of the model was evaluated.</p>
 									<a href="files/GuoChengxi_Project_Report_License_Plate_Detection.pdf">Click here for more details.</a>
 									<br /><br />
 
 									<h3 class="major">Mosaic Generation</h3>
 									<span class="image main"><img src="images/mosaic.png" alt="" /></span>
-									<p>This is the group project of MAT3007 Optimization. I was responsible for Part II: Mosaic Generation.
-									<a href="files/GuoChengxi_Project_Report_Mosaic_Generation.pdf#page=15">Click here to see my section of
-									our report.</a>
+									<p>This is part II of the MAT3007 Optimization course group project, which I was responsible for. We aimed to generate high-quality mosaics from an image using linear optimization approaches (In other words, blur the images but maintain their skeletons). We experimented with different images and mosaic tiles to test the feasibility of our algorithm. The result showed that the generated mosaics can recover the main features of target image to a certain extent.
+									<a href="files/GuoChengxi_Project_Report_Mosaic_Generation.pdf#page=15">Click here to see our report.</a>
 									</p>
 									<br /><br />
 
 							</article>
 
-						<!-- About -->
-							<article id="work">
-								<h2 class="major">Music Work</h2>
-								<p>See some of my piano performance recordings here: </p>
+						<!-- Research -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+								
+								<h3 class="major">6DOF Calibration in LED-Array-Microscope</h3>
+								<span class="image main"><img src="images/FPM.jpg" alt="" /></span>
+								In Fourier ptychographic microscopy (FPM), we aim to replace the light source on the microscope with a programmable LED array
+								 and recover high-resolution amplitude and phase information from the low-resolution images captured by turning on different 
+								 LEDs. In practical scenarios, we observed that the quality of image recovery is sensitive to system settings, the misalignment 
+								 of the LED array (specifically the 6DOF rotation and offset shift). We developed a Gauss-Newton method to solve the inverse recovery
+								  problem and calibrate the 6DOF rotational and translational offsets of the LED array. MATLAB codes are implemented to validate the 
+								  algorithm. We successfully provided an algorithm-based method to address the 6DOF misalignment issue of LED array in FPM.
+								<a href="files/GuoChengxi_Reserach_Reports (AIRS).pdf">Click here for more details.</a>
+								</p>
+								<br /><br />
+
+						</article>
+
+						<!-- Music -->
+							<article id="music">
+								<h2 class="major">Music work</h2>
+								<p>Some of my piano performance recordings are posted here. </p>
 								<ul>
-									<li><a href="https://youtu.be/7kDlebvd-28">Chopin - Fantaisie Impromptu</a></li>
-									<li>Shuwen Zhang - Happy Birthday Variations</li>
+									<li><a href="https://youtu.be/7kDlebvd-28">Chopin - Fantaisie Impromptu </a> (representative)</li>
+									<li><a href="https://youtu.be/gtfWX16b34A">Shuwen Zhang - Happy Birthday Variations </a></li>
+								</ul>
+								<p>See the performance videos of our band Captain Sahara (keyboard: Chengxi Guo): </p>
+								<ul>
+									<li><a href="https://v.youku.com/v_show/id_XNDQwMzY4Mzc5Ng==.html?spm=a2h0c.8166622.PhoneSokuUgcSeries_1.dtitle_2">Mayday - Tenderness</a></li>
 								</ul>
 
 							</article>
